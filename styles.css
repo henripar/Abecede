@@ -122,7 +122,7 @@ h3 {
   width: 80%;
 }
 .downloads-image {
-  height: 64px;
+  height: 45px;
   margin: auto;
 }
 
@@ -332,6 +332,9 @@ footer {
 .flag {
   width: 25px;
 }
+
+/* MENU*/
+
 .dropdown {
   display: none;
   position: absolute;
@@ -339,14 +342,18 @@ footer {
   width: 99vw;
   height: 100vh;
   box-shadow: 0px 8px 12px 0px rgba(0, 0, 0, 0.897);
-  padding: 12px 16px;
+  padding-top: 4em;
+  padding-bottom: 6em;
   z-index: -200;
   left: 0;
   top: 72px;
   float: left;
   margin: auto;
   color: #d7d8da;
+  align-self: center;
+  overflow: auto;
 }
+
 .menu:hover .dropdown {
   display: block !important;
 }
@@ -414,4 +421,22 @@ path {
 .social svg:hover {
   color: #e963ff;
   cursor: pointer;
+}
+
+@media screen and (max-height: 723px) {
+  .dropdown {
+    padding-top: 1em !important;
+    padding-bottom: 1em;
+  }
+  .dropdown h1 {
+    font-size: 1.5rem !important;
+  }
+}
+@media screen and (max-height: 717px) {
+  .dropdown {
+    padding-bottom: 5em;
+  }
+  .dropdown h1 {
+    font-size: 1.5rem !important;
+  }
 }
