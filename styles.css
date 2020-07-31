@@ -335,7 +335,7 @@ footer {
 .dropdown {
   display: none;
   position: absolute;
-  background-color: #000000d2;
+  background-color: rgba(0, 0, 0, 0.9);
   width: 99vw;
   height: 100vh;
   box-shadow: 0px 8px 12px 0px rgba(0, 0, 0, 0.897);
