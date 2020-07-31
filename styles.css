@@ -15,7 +15,7 @@ a:hover {
   display: inline-flex;
 }
 .logo {
-  height: 64px;
+  height: 50px;
 }
 .logo-text {
   align-self: center;
@@ -31,7 +31,7 @@ header {
   justify-content: space-evenly;
   position: fixed;
   width: 100%;
-  padding: 0.2em;
+  padding: 0.63em;
   align-items: center;
   top: 0;
   z-index: 200;
@@ -209,7 +209,7 @@ h3 {
   font-size: 2rem;
 }
 .photo h2:hover {
-  color: #7b2cbf;
+  color: #1a70b3;
   cursor: pointer;
 }
 .photo h3 {
